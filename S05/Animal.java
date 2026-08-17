@@ -1,7 +1,8 @@
 package S05;
 
 public class Animal {
-// Declaración de atributos
+   
+    // Declaración de atributos
     protected String nombre;
     protected int edad;
 
@@ -14,5 +15,9 @@ public class Animal {
 
 
     // Método
-   
+    void sonido() {
+        System.out.println(
+            nombre + " hizo un sonido. " + nombre + " tiene " + edad + " años de edad."
+        );
+    }
 }

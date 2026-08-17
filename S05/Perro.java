@@ -14,13 +14,15 @@ public class Perro extends Animal {
     }
 
 
-   
+    // Sobreescritura del metodo heredado
     @Override
     void sonido(){
         System.out.println(nombre + " ladra: ¡Guau!");
     }
 
 
-
-
+    // Método propio
+    void moverCola() {
+        System.out.println(nombre + " de raza " + raza + " tiene " + edad + " años de edad y mueve la cola felizmente.");
+    }
 }
