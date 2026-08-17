@@ -1,5 +1,6 @@
+package S05;
 public class Main {
-    public static void main(String[] args) {
+ public static void main(String[] args) {
        
         Animal miAnimal = new Animal("Animal", 5);
         System.out.println("=".repeat(20));
